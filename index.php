@@ -25,7 +25,9 @@ switch ($request) {
     case '/Projetsactuels/router/logout' :
         require 'action/logout.php';
         break;
-
+    case '/Projetsactuels/router/profil' :
+        require 'views/profil.php';
+        break;
 
     default:
         http_response_code(404);

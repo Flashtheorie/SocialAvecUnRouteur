@@ -43,7 +43,7 @@
       
     </ul>
     
-    <p class="navbar-text navbar-right"><li><a href="about">Connecté en tant que n°<?php echo $_SESSION['id']; ?></a></li></p>
+    <p class="navbar-text navbar-right"><li><a href="profil">Connecté en tant que <span class="text-danger"><?php echo $_SESSION['id']; ?></span></a></li></p>
 
 
   </div><!-- /.navbar-collapse -->
